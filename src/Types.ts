@@ -10,3 +10,7 @@ export interface IPhoto {
     openModal: (photo: any) => void; 
 }
 
+export interface IResponse {
+    total_pages: number;
+    results: IPhoto[];
+}
